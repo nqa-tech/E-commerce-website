@@ -1,0 +1,192 @@
+<div class="table_laptop mt-3">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <a href=""
+              ><img src="images/Xgear-x-Acer.jpg" alt="" width="100%"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <a href=""
+              ><img src="images/Xgear-x-MSI.jpg" alt="" width="100%"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <a href=""
+              ><img src="images/Xgear-x-Lenovo.jpg" alt="" width="100%"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <a href=""
+              ><img src="images/Xgear-x-Asus.jpg" alt="" width="100%"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="menu row w-200 container-fluid">
+    <ul>
+      <li class="menuBot col"><b>LAPTOP</b></li>
+      <li>
+        <a target="page" class="menuBot col-sm-2" href="trangMenuSP.html"
+          >TUF Gaming</a
+        >
+      </li>
+      <li>
+        <a target="page" class="menuBot col-sm-2" href="trangMenuSP.html"
+          >Nitro 5</a
+        >
+      </li>
+      <li>
+        <a target="page" class="menuBot col-sm-2" href="trangMenuSP.html"
+          >GF Series</a
+        >
+      </li>
+      <li>
+        <a target="page" class="menuBot col-sm-2" href="trangMenuSP.html"
+          >Legion</a
+        >
+      </li>
+      <li>
+        <a target="page" class="menuBot col-sm-2" href="trangMenuSP.html"
+          >Ideapad Gaming</a
+        >
+      </li>
+      <li>
+        <a target="page" class="menuBot col-sm-2" href="trangMenuSP.html"
+          >Stric G</a
+        >
+      </li>
+    </ul>
+  </nav>
+  <div class="thongTin row">
+    <div class="card col-sm-3 bg-dark">
+      <div class="card-body">
+        <img class="card" src="images/baohanh.png" alt="" />
+        <h4>Bảo hành</h4>
+        Chính hãng 100%
+      </div>
+    </div>
+    <div class="card col-sm-3 bg-dark">
+      <div class="card-body">
+        <img class="card" src="images/iconNew.png" alt="" />
+        <h4>Đổi mới</h4>
+        Trong 7 ngày
+      </div>
+    </div>
+    <div class="card col-sm-3 bg-dark">
+      <div class="card-body">
+        <img class="card" src="images/sup.png" alt="" />
+        <h4>Hỗ trợ</h4>
+        Trả góp 0%
+      </div>
+    </div>
+    <div class="card col-sm-3 bg-dark">
+      <div class="card-body">
+        <img class="card" src="images/fast.png" alt="" />
+        <h4>Giao nhanh 2h</h4>
+        Nội thành HN & HCM
+      </div>
+    </div>
+  </div>
+ <!-- Example split danger button -->
+
+  <div class="row" ng-controller="prod">
+<div class="btn-group btn-sort col-sm-1">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+   Sắp xếp theo:
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" ng-click="sortBy('name')">Tên sản phẩm</a></li>
+    <li><a class="dropdown-item" ng-click="sortBy('price')">Giá sản phẩm</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" ng-click="sortBy('')">Bán chạy nhất</a></li>
+  </ul>
+</div>
+    <div class="col-sm-3" ng-repeat="st in products|orderBy:prop|limitTo:8:begin"   >
+      <div class="sanpham" ng-click="showProductDetails(st.id_prod)">
+        <div class="prod" >
+          <a href="#!/prod" 
+            ><img class="image img-thumbnail" src="/images/{{st.image}}"
+          /></a>
+          <a href="#!/prod" 
+            ><div class="name">
+              {{st.name}}
+            </div></a
+          >
+          <a href="#!/prod" 
+            ><div class="price">
+              <del>{{st.old_price | number:0}} ₫</del>{{st.price | number:0}} ₫
+            </div></a
+          >
+          <a href="#!/prod" >
+            <div class="product_infor">
+              <table>
+                <tr>
+                  <td>
+                    <img src="images/cpu.png" width="30px" alt="" />
+                  </td>
+                  <td>{{st.cpu}}</td>
+                  <td>
+                    <img src="images/card.png" width="30px" alt="" />
+                  </td>
+                  <td>{{st.card}}</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/ram.png" width="30px" alt="" />
+                  </td>
+                  <td>{{st.ram}}</td>
+                  <td>
+                    <img src="images/ssd.png" width="30px" alt="" />
+                  </td>
+                  <td>{{st.ssd}}</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/baohanh.png" width="30px" alt="" />
+                  </td>
+                  <td>{{st.baohanh}}</td>
+                  <td>
+                    <img src="images/manhinh.png" width="30px" alt="" />
+                  </td>
+                  <td>{{st.manhinh}}</td>
+                </tr>
+              </table>
+            </div>
+          </a>
+          <img class="new-icon" src="images/new-gif.gif" />
+        </div>
+      </div>
+    </div>
+    
+    <nav aria-label="Page navigation example ">
+      <ul class="pagination justify-content-center mt-2">
+        <li class="page-item" ng-click="first()">
+          <a class="page-link" >Đầu tiên</a>
+        </li>
+        <li class="page-item" ng-repeat="page in pages">
+          <a class="page-link" ng-click="setPage(page)" >{{ page }}</a>
+        </li>
+        <li class="page-item" ng-click="last()">
+          <a class="page-link">Cuối cùng</a>
+        </li>
+        
+      </ul>
+    </nav>
+  </div>

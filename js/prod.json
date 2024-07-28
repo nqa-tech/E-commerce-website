@@ -1,0 +1,576 @@
+[
+  {
+    "id_prod": 1,
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 2,
+    "name": "Laptop Gaming MSI GF63 Thin 11SC 665VN / 664VN Geforce GTX 1650 4GB Intel...",
+    "image": "laptop1.jpg",
+    "old_price": 18990000,
+    "price": 15290000 ,
+    "cpu": "i5 11400H",
+    "card": "GTX 1650",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 3,
+    "name": "Laptop Gigabyte A5 K1-AVN1030SB RTX 3060 6GB Ryzen 5 5600H 8GB 512GB ...",
+    "image": "laptop2.png",
+    "old_price": 23490000,
+    "price": 21990000,
+    "cpu": "R5 5600H",
+    "card": "RTX 3060",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+
+  },
+  
+  {
+    "id_prod": 4,
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop3.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 5,
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop4.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 6,
+    "name": "Laptop Gaming MSI GF63 Thin 11SC 665VN / 664VN Geforce GTX 1650 4GB Intel...",
+    "image": "laptop5.jpg",
+    "old_price": 18990000,
+    "price": 15290000 ,
+    "cpu": "i5 11400H",
+    "card": "GTX 1650",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 7,
+    "name": "Laptop Gigabyte A5 K1-AVN1030SB RTX 3060 6GB Ryzen 5 5600H 8GB 512GB ...",
+    "image": "laptop6.jpg",
+    "old_price": 23490000,
+    "price": 21990000,
+    "cpu": "R5 5600H",
+    "card": "RTX 3060",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+
+  },
+  
+  {
+    "id_prod": 8,
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop7.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 9,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop5.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 10,
+
+    "name": "Laptop Gaming MSI GF63 Thin 11SC 665VN / 664VN Geforce GTX 1650 4GB Intel...",
+    "image": "laptop4.jpg",
+    "old_price": 18990000,
+    "price": 15290000 ,
+    "cpu": "i5 11400H",
+    "card": "GTX 1650",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 11,
+
+    "name": "Laptop Gigabyte A5 K1-AVN1030SB RTX 3060 6GB Ryzen 5 5600H 8GB 512GB ...",
+    "image": "laptop1.jpg",
+    "old_price": 23490000,
+    "price": 21990000,
+    "cpu": "R5 5600H",
+    "card": "RTX 3060",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+
+  },
+  
+  {
+    "id_prod": 12,
+
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 13,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop3.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 14,
+
+    "name": "Laptop Gaming MSI GF63 Thin 11SC 665VN / 664VN Geforce GTX 1650 4GB Intel...",
+    "image": "laptop3.jpg",
+    "old_price": 18990000,
+    "price": 15290000 ,
+    "cpu": "i5 11400H",
+    "card": "GTX 1650",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 15,
+
+    "name": "Laptop Gigabyte A5 K1-AVN1030SB RTX 3060 6GB Ryzen 5 5600H 8GB 512GB ...",
+    "image": "laptop5.jpg",
+    "old_price": 23490000,
+    "price": 21990000,
+    "cpu": "R5 5600H",
+    "card": "RTX 3060",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+
+  },
+  
+  {
+    "id_prod": 16,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 17,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop4.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 18,
+
+    "name": "Laptop Gaming MSI GF63 Thin 11SC 665VN / 664VN Geforce GTX 1650 4GB Intel...",
+    "image": "laptop3.jpg",
+    "old_price": 18990000,
+    "price": 15290000 ,
+    "cpu": "i5 11400H",
+    "card": "GTX 1650",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 19,
+
+    "name": "Laptop Gigabyte A5 K1-AVN1030SB RTX 3060 6GB Ryzen 5 5600H 8GB 512GB ...",
+    "image": "laptop1.jpg",
+    "old_price": 23490000,
+    "price": 21990000,
+    "cpu": "R5 5600H",
+    "card": "RTX 3060",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+
+  },
+  
+  {
+    "id_prod": 20,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 21,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 22,
+
+    "name": "Laptop Gaming MSI GF63 Thin 11SC 665VN / 664VN Geforce GTX 1650 4GB Intel...",
+    "image": "laptop3.jpg",
+    "old_price": 18990000,
+    "price": 15290000 ,
+    "cpu": "i5 11400H",
+    "card": "GTX 1650",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 23,
+
+    "name": "Laptop Gigabyte A5 K1-AVN1030SB RTX 3060 6GB Ryzen 5 5600H 8GB 512GB ...",
+    "image": "laptop1.jpg",
+    "old_price": 23490000,
+    "price": 21990000,
+    "cpu": "R5 5600H",
+    "card": "RTX 3060",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+
+  },
+  
+  {
+    "id_prod": 24,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 25,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 26,
+
+    "name": "Laptop Gaming MSI GF63 Thin 11SC 665VN / 664VN Geforce GTX 1650 4GB Intel...",
+    "image": "laptop3.jpg",
+    "old_price": 18990000,
+    "price": 15290000 ,
+    "cpu": "i5 11400H",
+    "card": "GTX 1650",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 27,
+
+    "name": "Laptop Gigabyte A5 K1-AVN1030SB RTX 3060 6GB Ryzen 5 5600H 8GB 512GB ...",
+    "image": "laptop1.jpg",
+    "old_price": 23490000,
+    "price": 21990000,
+    "cpu": "R5 5600H",
+    "card": "RTX 3060",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+
+  },
+  
+  {
+    "id_prod": 28,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 29,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 30,
+
+    "name": "Laptop Gaming MSI GF63 Thin 11SC 665VN / 664VN Geforce GTX 1650 4GB Intel...",
+    "image": "laptop0.jpg",
+    "old_price": 18990000,
+    "price": 15290000 ,
+    "cpu": "i5 11400H",
+    "card": "GTX 1650",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 31,
+
+    "name": "Laptop Gigabyte A5 K1-AVN1030SB RTX 3060 6GB Ryzen 5 5600H 8GB 512GB ...",
+    "image": "laptop0.jpg",
+    "old_price": 23490000,
+    "price": 21990000,
+    "cpu": "R5 5600H",
+    "card": "RTX 3060",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+
+  },
+  
+  {
+    "id_prod": 32,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 33,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 34,
+
+    "name": "Laptop Gaming MSI GF63 Thin 11SC 665VN / 664VN Geforce GTX 1650 4GB Intel...",
+    "image": "laptop0.jpg",
+    "old_price": 18990000,
+    "price": 15290000 ,
+    "cpu": "i5 11400H",
+    "card": "GTX 1650",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 35,
+
+    "name": "Laptop Gigabyte A5 K1-AVN1030SB RTX 3060 6GB Ryzen 5 5600H 8GB 512GB ...",
+    "image": "laptop1.jpg",
+    "old_price": 23490000,
+    "price": 21990000,
+    "cpu": "R5 5600H",
+    "card": "RTX 3060",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+
+  },
+  
+  {
+    "id_prod": 36,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 37,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 38,
+
+    "name": "Laptop Gaming MSI GF63 Thin 11SC 665VN / 664VN Geforce GTX 1650 4GB Intel...",
+    "image": "laptop3.jpg",
+    "old_price": 18990000,
+    "price": 15290000 ,
+    "cpu": "i5 11400H",
+    "card": "GTX 1650",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+  },
+  {
+    "id_prod": 39,
+
+    "name": "Laptop Gigabyte A5 K1-AVN1030SB RTX 3060 6GB Ryzen 5 5600H 8GB 512GB ...",
+    "image": "laptop1.jpg",
+    "old_price": 23490000,
+    "price": 21990000,
+    "cpu": "R5 5600H",
+    "card": "RTX 3060",
+    "ram": "DDR4 8GB",
+    "ssd": "512GB",
+    "baohanh": "12 tháng 3S1",
+    "manhinh": "15.6'FHD 144Hz"
+
+  },
+  
+  {
+    "id_prod": 40,
+
+    "name": "Laptop Gaming Acer Aspire 7 A715-43G-R8GA RTX 3050 4GB Ryzen 5 5625U...",
+    "image": "laptop0.jpg",
+    "old_price": 21990000 ,
+    "price": 16990000,
+      "cpu": "R5 5625U",
+      "card": "RTX 3050",
+      "ram": "DDR4 8GB",
+      "ssd": "512GB",
+      "baohanh": "12 tháng 3S1",
+      "manhinh": "15.6'FHD 144Hz"
+  }
+  
+]

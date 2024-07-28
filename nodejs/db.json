@@ -1,0 +1,25 @@
+{
+  "user": [
+    {
+      "id": "user_5",
+      "password": "1aC",
+      "name": "a",
+      "email": "b@gmail.com"
+    }
+  ],
+  "card": [
+    {
+      "cart_id": 1,
+      "id": "user_5",
+      "id_prod": 2,
+      "name_prod": "Laptop Gaming MSI GF63 Thin 11SC 665VN / 664VN Geforce GTX 1650 4GB Intel...",
+      "cpu": "i5 11400H",
+      "ram": "DDR4 8GB",
+      "image": "laptop1.jpg",
+      "quantity": 6,
+      "price": 15290000,
+      "amount": "91.740.000 ₫",
+      "status": "Đã thanh toán"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<header class="container-fluid" ng-include="'./views/Header.html'"></header>
+
+    <nav class="row w-101"  ng-include="'./views/Menu.html'"></nav>
+
+    <main class="row bg-dark">
+      
+      <div class="row">
+        <article class="col-lg-9 bg-black"  ng-include="'./views/index/Article-index.html'">
+        </article>
+        <aside class="col-lg-3 as-index" ng-include="'./views/index/Aside-index.html'"></aside>
+      </div>
+      <div class="container-fluid"  ng-include="'./views/index/Container-index.html'" ></div>
+    </main>
+    
+    <footer class="row" ng-include="'./views/Footer.html'"></footer>

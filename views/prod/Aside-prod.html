@@ -1,0 +1,77 @@
+<div class="tenSP mt-3" ng-controller="prod">
+  <h4>
+    <b>
+      {{products[1].name}}<br />
+      {{products[1].cpu}} {{products[1].ram}} {{products[1].ssd}} <br />
+      {{products[1].manhinh}} IPS Backlight Keyboard Win 11
+    </b>
+  </h4>
+  Thương hiệu: <a href="" class="text-decoration-none">MSI</a> <br />
+  <div class="text-warning">{{products[1].baohanh}} chính hãng.</div>
+  <br />
+
+  <div class="price1"><del>{{products[1].old_price | number:0}} ₫</del>{{products[1].price | number:0}} ₫</div>
+  <i>*Giá trên đã bao gồm thuế VAT</i>
+  <hr />
+</div>
+<div class="row mb-5" >
+  <form action="">
+    <div class="form-group" ng-controller="prod">
+        <button type="reset" onclick="buy()" class="form-button">
+          Mua ngay
+        </button>
+    
+        <button type="button" class="form-button" ng-click="insert()" data-bs-toggle="modal" data-bs-target="#gio-hang">
+          Thêm vào giỏ
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="gio-hang" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-info">
+                <h5 class="modal-title" id="exampleModalLabel">Thông báo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Đã thêm vào giỏ hàng thành công!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Tiếp tục mua sắm >></button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </label>
+    </div>
+    <div class="muaTraGop">
+      <button type="reset" class="form-button2">
+        ĐĂNG KÝ MUA TRẢ GÓP
+      </button>
+    </div>
+  </form>
+  <div class="ThongTinSP">
+    <div class="jumbotron">
+      <h1 class="display-6 text-danger mt-2">Khuyến mãi</h1>
+      ♦ Nâng cấp ram lên 16GB chỉ 490.000đ. <br />
+      ♦ Combo gear trị giá <b>500.000đ</b>: (không lấy giảm giá
+      <b>300.000đ</b>) <br />
+      – Chuột Logitech G300s <br />
+      – Lót chuột size XXXL. <br />
+      ♦ Balo Gaming Predator SUV. <br />
+      ♦ Túi chống sốc thường hoặc mua túi chống sốc cao cấp Xgear chỉ
+      <b>90.000đ.</b> <br />
+      ♦ Giảm ngay <b>50.000đ.</b> khi mua thêm Gaming Gear. <br />
+      ♦ Giảm ngay <b>100.000đ.</b> khi mua thêm Màn hình. <br />
+      ♦ Đổi mới trong <b >7</b> ngày (nếu lỗi phần cứng). <br />
+      ♦ Miễn phí vệ sinh máy. <br />
+      ♦ Miễn phí giao hàng toàn quốc. <br />
+      ♦ Giao hàng trong <b>2h</b>. <br />
+      ♦ Miễn phí đổi trả lỗi do nhà sản xuất. <br />
+      ♦ Hệ thống bán lẻ trên toàn quốc. <br />
+
+    </div>
+  </div>
+</div>

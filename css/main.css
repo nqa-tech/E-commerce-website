@@ -1,0 +1,740 @@
+article {
+  background-color: black;
+}
+
+.as-index {
+  background-color: black;
+  height: 35rem;
+
+}
+
+header {
+  height: 60px;
+  background-color: darkred;
+}
+footer {
+  height: 320px;
+  background-color: darkred;
+  color: wheat;
+  padding-top: 1rem;
+}
+footer > img {
+  float: left;
+  left: 190px;
+  top: 25px;
+  height: 140px;
+}
+
+.footer_infor {
+  line-height: 28px;
+  color: wheat;
+}
+
+.inDam {
+  font-size: large;
+  color: black;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.wrap {
+  width: 70%;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon_gioHang {
+  position: absolute;
+  top: 30px;
+  right: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.menu_first {
+  background-color: black;
+  height: 50px;
+  width: 1465px;
+  position: relative;
+  line-height: 60px;
+  font-variant: small-caps;
+  text-align: center;
+}
+.menu_first > ul > li {
+  display: inline-block;
+  position: relative;
+}
+.menu_first > ul > li > a {
+  display: block;
+}
+.menu_first > ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.menu_first > ul > li > a {
+  text-decoration: none;
+  font-variant: small-caps;
+  font-size: larger;
+  color: white;
+  padding: 0 20px;
+  line-height: 40px;
+}
+.menu_first > ul > li > a:hover {
+  color: yellow;
+}
+.menu_first ul ul {
+  position: absolute;
+  display: none;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  border-radius: 3px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 0 1px gray;
+}
+.menu_first ul ul a {
+  display: block;
+  line-height: 40px;
+  color: white;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-size: large;
+  padding: 5px 10px;
+}
+.menu_first > ul > li:hover > ul {
+  display: block;
+}
+.menu_first ul ul a:hover {
+  background-color: black;
+  color: white;
+}
+
+.banner-left img {
+  margin-left: 50px;
+  float: left;
+  width: 70%;
+  height: 480px;
+  margin: 0 auto;
+  left: 10%;
+  background-size: 100%;
+}
+.banner-left {
+  margin-left: 80px;
+  padding: 20px;
+
+}
+
+.banner-right {
+  top: 120px;
+  float: right;
+  width: 19%;
+  position: absolute;
+  right: 10%;
+  margin: 0 auto;
+
+}
+.banner-right img {
+  margin: 0 auto;
+  padding: 10px;
+  height: 140px;
+
+}
+
+.sanpham {
+  margin-top: 80px;
+  top: 50px;
+  width: 300px;
+  float: left;
+  margin: 0 auto;
+  padding: 2px;
+  top: 90px;
+  left: 2%;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  height: 550px;
+}
+
+.prod a .name {
+  font-size: bold;
+  font-size: 19px;
+  color: white;
+}
+.prod a table {
+  color: white;
+}
+.prod a {
+  text-decoration: none;
+}
+.image {
+  width: 100%;
+  height: 280px;
+  margin-bottom: 10px;
+transition: all 0.5s;
+
+}
+.image:hover {
+  -webkit-transform: scale(1.2, 1.2);
+-moz-transform: scale(1.2, 1.2);
+-o-transform: scale(1.2, 1.2);
+transform: scale(1.2, 1.2);
+-webkit-transform-origin: top right;
+-moz-transform-origin: top right;
+-o-transform-origin: top right;
+transform-origin: top right;
+transition: all 0.5s;
+
+}
+.xgear {
+  position: absolute;
+  top: -8px;
+  left: 2%;
+}
+.thongTin {
+  color: grey;
+  padding: 10px 10px 0px 10px;
+}
+
+.thongTin img {
+  width: 32px;
+  height: 32px;
+}
+.table_laptop > table {
+  top: 30px;
+  float: bottom;
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  right: -1%;
+  line-height: 6px;
+  padding: 0px;
+}
+.table_laptop > table:hover {
+  top: 30px;
+  float: bottom;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  right: -1%;
+  line-height: 6px;
+  padding: 0px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 30px;
+  color: white;
+}
+.menu > ul > li {
+  display: inline-block;
+}
+
+.menu > ul {
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  padding: 0px;
+  list-style: none;
+  border-radius: 5px;
+  background-color: darkred;
+  line-height: 60px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.menuBot:hover {
+  color: yellow;
+}
+
+.menuBot > b {
+  font-size: larger;
+  color: red;
+  background-color: black;
+  padding: 10px 200px 10px 50px;
+  border-radius: 5px;
+  line-height: 10px;
+  margin-left: -10rem;
+}
+.menu > ul > li a {
+  display: inline;
+  background-color: black;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  line-height: 30px;
+  position: relative;
+  left: 7rem;
+  margin-right: 15px;
+}
+.price > del {
+  color: grey;
+  font-size: large;
+}
+.price {
+  color: red;
+  font-size: large;
+  line-height: 30px;
+}
+.product_infor table {
+  text-align: center;
+  line-height: 30px;
+  padding: 2px;
+}
+
+.dangnhap {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(220, 79, 79);
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bolder;
+  box-shadow: 5px 5px 0px 0px black;
+  float: inline-end;
+  margin-top: 15px;
+  margin-right: 0.1rem;
+}
+
+.dangnhap:hover {
+  color: rgb(255, 255, 255);
+  background-color: darkred;
+  box-shadow: 0px 0px 5px 5px black;
+}
+
+.product {
+  top: 1000px;
+  left: 20px;
+}
+.new-icon {
+  width: 90px;
+  float: left;
+  position: relative;
+  bottom: 535px;
+  left: 222px;
+}
+.ThanhToan {
+  float: left;
+  left: 1080px;
+  top: 30px;
+}
+.iconThanhToan > a img {
+  padding: 1px;
+  margin: 0 auto;
+
+  margin-left: 2px;
+  margin-top: 10px;
+}
+
+.foo_form-control {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 300px;
+  border: 3px solid red;
+  height: 25px;
+}
+
+.list-trang {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 60px;
+  margin-top: 1450px;
+  margin-left: 500px;
+}
+.list-trang-tem {
+  background-color: darkred;
+  margin: 11px;
+  height: 33px;
+  width: 33px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-trang-tem1 {
+  background-color: rgb(57, 48, 48);
+  margin: 11px;
+  height: 33px;
+  width: 33px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.list-trang-tem1:hover {
+  background-color: darkred;
+  border-radius: 10px;
+  font-size: 26px;
+}
+.list-trang-tem2 {
+  margin: 11px;
+  height: 33px;
+  width: 33px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list-trang-tem3 {
+  background-color: rgb(57, 48, 48);
+  margin: 11px;
+  height: 33px;
+  width: 45px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list-trang-tem3:hover {
+  background-color: darkred;
+  border-radius: 10px;
+  font-size: 32px;
+}
+.list-trang > li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* //login */
+
+.hero{
+  position: relative;
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 643px;
+  bottom: 50px;
+
+}
+
+.form-box{
+  width: 380px;
+  height: 600px;
+  position: relative;
+  margin: 6% auto;
+  background: #141f28 ;
+  padding: 5px;
+  overflow: hidden;
+  top:5px;
+  left: 20px;
+  box-shadow: 0 0 5000px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.button-box{
+  width: 15.011rem;
+  margin: 30px auto ;
+  position: relative;
+  box-shadow: 0 0 20px 9px #2003fc1f;
+  border-radius: 30px;
+}
+.toggle-btn{
+  padding: 12px 25px;
+  cursor: pointer;
+  background:transparent ;
+  border: 0;
+  outline: none;
+  position: relative;
+  color: #ffffff;
+}
+#btn{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ff0099, #2600fc) ;
+  border-radius: 30px;
+  transition: .5s;
+}
+.social-icons{
+  margin: 30px auto;
+  text-align: center;
+}
+.social-icons img{
+  width: 40px;
+  margin: 0 12px;
+  cursor: pointer;
+  
+}
+.login{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+
+}
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+  color: white;
+}
+.input-field:focus{
+  border: 1px solid rgb(101, 182, 243);
+}
+.submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  background: linear-gradient(to right, #ff0099, #2600fc) ;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+  margin-top: 30px;
+}
+.check-box{
+  
+  margin: 30px 10px 40px 0;
+  
+}
+.login p {
+  position: absolute;
+  margin-top: 1.5rem;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+.login a {
+  color: white;
+}
+#login{
+  left: 50px;
+}
+#register{
+  left: 450px;
+}
+#register  p{
+  width: 280px;
+  top: 1.3rem;
+  color: #777;
+  font-size: 14px;
+  left: 55px;
+  margin-left: 6.5rem;
+}
+#login p{
+  width: 250px;
+  top: 9.1rem;
+  color: #777;
+  font-size: 14px;
+  left: 45px;
+  margin-left: 6.5rem;
+}
+
+/* new-css */
+.banner-left2 img{
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.news>table {
+  top: 620px;
+  float: bottom;
+  position: absolute;
+  margin: 0 auto;
+  width: 85%;
+  left: 9%;
+  line-height: 28px;
+  padding: 10px;
+}
+
+.tieuDe{
+  color: palevioletred;
+  font-size: 18px;
+}
+
+.content-news {
+  max-width: 13rem;
+}
+.content-news img{
+  width: 100%;
+  margin-left: 3rem;
+
+}
+.caption > a{
+  margin-left: 38rem;
+  text-decoration: none;
+  color: palevioletred;
+  font-size: smaller;
+  font-weight: bold;
+}
+.caption{
+  position: absolute;
+  margin-left: 20rem;
+  margin-top: -0.5rem;
+}
+.vanBan{
+  font-size: small;
+  font-size: 15px;
+  color: white;
+}
+.vanBan a{
+  text-decoration: none;
+  color: palevioletred;
+  font-size: smaller;
+  font-weight: bold;
+}
+.text a{
+  text-decoration: none;
+  color: palevioletred;
+  font-size: smaller;
+  font-weight: bold;
+  font-size: 10px;
+}
+.more{
+  height: 40px;
+  font-style: italic;
+  background-color: rgb(64, 53, 53);
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 10px auto;
+  margin-left: 50%;
+  margin-top: 1.4rem;
+
+}
+.more:hover{
+  
+  font-style: italic;
+  background-color: rgb(98, 15, 15);
+  border-radius: 10px;
+  font-weight: bold;  
+  font-size: 15px; 
+}
+
+.fb-like{
+  float: left;
+  margin-top: -550px;
+  margin-left: 150px;
+}
+#magic{
+  position: absolute;
+  top: 930px;
+  left: 10px;
+  float: left;
+}
+
+/* prod */
+
+.price1 > del{
+  color: grey;
+  font-size: large;
+}
+.price1{
+  color: red;
+  font-size: large;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+.form-control:focus{
+  box-shadow: 0 0 3px red;
+  border: 3px solid black;
+  background-color:white;
+}
+.form-button{
+  padding: 3px 30px;
+  outline: none;
+  border: none;    
+  font-weight: bold;
+  background-color: red;
+  color: white;
+}
+.form-button:hover{
+  color: yellow;
+  background-color: darkred;
+}
+.input-nb{
+  width: 4.2rem;;
+}
+
+
+.form-button2{
+  padding: 5px;
+  margin-right: 18rem;
+  margin-top: .5rem;
+  outline: none;
+  border: none;    
+  background-color:#00B4CC;
+  color: white;
+  width: 19rem;
+  
+}
+.form-button2:hover{
+  outline: none;
+  border: none;    
+  background-color:#157683;
+  color: white;
+  
+}
+
+
+.tenSP a:hover{
+  color: darkred;
+}
+.ThongTinSP b{
+  color: red;
+  font-size: 20px;
+  
+}
+.ThongTinSP{
+  line-height: 32px;
+}
+.prod-img{
+  width: 95%;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* gio-hang */
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+}
+.btn-ms-pl{
+  height: 37px;
+}
+.search-results {
+  position: relative;
+  z-index: 200;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+.nvb{
+  z-index: -10;
+}
+.btn-sort{
+  margin-left: 81rem;
+  padding:10px 0px 10px 0px;
+  margin-top: 1rem;
+}
+input.ng-invalid {
+  background-image: url("/images/warning.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+}

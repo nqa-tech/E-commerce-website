@@ -1,0 +1,363 @@
+<!-- Button trigger modal -->
+<button
+  type="button"
+  class="btn-danger dangnhap"
+  data-bs-toggle="modal"
+  data-bs-target="#exampleModal"
+>
+  <i class="bi bi-person-circle"></i> Tài khoản
+</button>
+
+<!-- Modal -->
+<div
+  
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          <i class="bi bi-person-circle"></i> Tài khoản
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="hero">
+          <div class="form-box">
+            <div class="button-box">
+              <div id="btn"></div>
+              <button type="button" class="toggle-btn" onclick="login()">
+                Đăng nhập
+              </button>
+              <button type="button" class="toggle-btn" onclick="register()">
+                Đăng ký
+              </button>
+            </div>
+            <div class="social-icons">
+              <img src="/images/images/fb.png" alt="" />
+              <img src="/images/images/google.png" alt="" />
+              <img src="/images/images/tw.png" alt="" />
+            </div>
+            <form id="register" class="login" name="frmBonus" ng-controller="prod">
+              <div class="form-floating is-invalid">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingName"
+                  placeholder="Họ và tên:"
+                  required
+                  maxlength="20"
+                  ng-model="user.name_dk"
+                />
+                <label for="floatingName">Họ và tên</label>
+                <span
+                  class="text-warning"
+                  ng-show="frmBonus.txtFullname.$invalid"
+                >
+                  Vui lòng nhập họ và tên
+                </span>
+              </div>
+              <div class="form-floating mb-3 is-invalid">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                  ng-model="user.email_dk"
+                  name="txtEmail"
+                  required
+                  type="email"
+                  maxlength="20"
+                />
+                <label for="floatingInput">Email</label>
+                <span class="text-warning" ng-show="frmBonus.txtEmail.$invalid">
+                  Vui lòng nhập email
+                </span>
+              </div>
+              <div
+                class="form-floating"
+                ng-class="{ 'is-invalid': frmBonus.txtPassword.$invalid && frmBonus.txtPassword.$dirty }"
+              >
+                <input
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Password"
+                  name="txtPassword"
+                  type="password"
+                  ng-minlength="2"
+                  ng-maxlength="12"
+                  maxlength="12"
+                  ng-pattern="/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{2,12}$/"
+                  required
+                  ng-model="user.password"
+                />
+                <label for="floatingPassword">Mật khẩu</label>
+                <span
+                  class="text-warning"
+                  ng-show="frmBonus.txtPassword.$error.pattern"
+                >
+                  Mật khẩu phải bao gồm 12 kí tự: số, chữ cái in hoa và in
+                  thường.
+                </span>
+              </div>
+
+              <div
+                class="form-floating"
+                ng-class="{ 'is-invalid': frmBonus.txtPasswordConfirm.$invalid && frmBonus.txtPasswordConfirm.$dirty }"
+              >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPasswordConfirm"
+                  placeholder="Confirm Password"
+                  ng-model="confirmPassword"
+                  name="txtPasswordConfirm"
+                  required
+                  ng-pattern="Password"
+                  ng-change="checkPasswordMatch()"
+                />
+                <label for="floatingPasswordConfirm">Xác nhận mật khẩu</label>
+                <!-- <span
+                  class="text-warning"
+                  ng-show="frmBonus.txtPasswordConfirm.$error.pattern"
+                >
+                  Mật khẩu không trùng khớp.
+                </span> -->
+              </div>
+
+              <button type="submit" class="submit-btn" ng-click="dangky()">
+                Đăng ký
+              </button>
+            </form>
+            <form id="login" class="login has-validation" ng-controller="prod" ng-submit="login()">
+              <div class="form-floating mb-3 is-invalid">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                  required
+                  ng-model="user.email"
+
+                />
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating is-invalid">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Password"
+                  required
+                  ng-model="user.password"
+                />
+                <label for="floatingPassword">Mật khẩu</label>
+              </div>
+              <input type="checkbox" class="check-box" />
+              <p>GHI NHỚ ĐĂNG NHẬP</p>
+              <button type="submit" class="submit-btn">Đăng nhập</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap" ng-controller="prod">
+  <div class="input-group">
+    <input
+      type="search"
+      class="form-control rounded"
+      placeholder="Bạn cần tìm sản phẩm gì..."
+      aria-label="Search"
+      aria-describedby="search-addon"
+      ng-model="searchTerm"
+      ng-change="onSearch()"
+    />
+    <button 
+      type="button"
+      class="btn btn-outline-dark btn btn-dark text-light"
+      data-mdb-ripple-init
+    >
+      Search
+    </button>
+  </div>
+  <ul class="list-group search-results">
+    <a href="#!/prod" class="text-decoration-none">
+      <li class="list-group-item" ng-repeat="product in searchResults">
+        <img
+          class="img-thumbnail"
+          width="40px"
+          src="/images/{{product.image}}"
+          alt=""
+        />
+        {{ product.name }} - ${{ product.price }}
+      </li>
+    </a>
+  </ul>
+</div>
+
+<a  ng-click="load()"
+  class="icon_gioHang"
+  data-bs-toggle="offcanvas"
+  data-bs-target="#offcanvasWithBothOptions"
+  aria-controls="offcanvasWithBothOptions"
+>
+  <img src="images/bag.png" width="30px" alt="" />
+</a>
+<div
+  class="offcanvas offcanvas-end"
+  data-bs-scroll="true"
+  tabindex="-1"
+  id="offcanvasWithBothOptions"
+  aria-labelledby="offcanvasWithBothOptionsLabel"
+>
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Giỏ hàng</h5>
+    <button
+      type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body" ng-controller="prod">
+    <section class="h-100 gradient-custom">
+      <div class="container py-5">
+        <div class="row d-flex justify-content-center my-4">
+          <div class="card mb-4">
+            <div class="card-header py-3">
+              <h5 class="mb-0">Sản phẩm</h5>
+            </div>
+            <div class="card-body" ng-show="showCart" >
+              <!-- Single item -->
+              <div class="row">
+                <div class="mb-4 mb-lg-0">
+                  <!-- Image -->
+                  <div 
+                    classs="bg-image hover-overlay hover-zoom ripple rounded"
+                    data-mdb-ripple-color="light"
+                  >
+                    <img
+                      src="/images/{{cart[0].image}}"
+                      class="w-100"
+                      alt=""
+                    />
+                    <a href="#!">
+                      <div
+                        class="mask"
+                        style="background-color: rgba(251, 251, 251, 0.2)"
+                      ></div>
+                    </a>
+                  </div>
+                  <!-- Image -->
+                </div>
+
+                <div class="mb-4 mb-lg-0" ng-repeat="cartItem in cart" ng-if="cartItem.status === 'Chưa thanh toán'">
+                  <!-- Data -->
+                  <p><strong>{{cart[0].name_prod}}</strong></p>
+                  <p>CPU: {{cart[0].cpu}}</p>
+                  <p>RAM: {{cart[0].ram}}</p>
+                  <button
+                  
+                  ng-click="deleteCartItem(cartItem)"
+
+
+                    type="button"
+                    class="btn btn-primary btn-sm me-1 mb-2"
+                    data-mdb-toggle="tooltip"
+                    title="Remove item"
+                  >
+                    <i class="bi bi-trash3"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-danger btn-sm mb-2"
+                    data-mdb-toggle="tooltip"
+                    title="Move to the wish list"
+                  >
+                    <i class="bi bi-suit-heart-fill"></i>
+                  </button>
+                  <!-- Data -->
+                </div>
+
+                <div class="mb-4 mb-lg-0" >
+                  <!-- Quantity -->
+                  <div class="d-flex mb-4" style="max-width: 300px">
+                    <div class="form-outline">
+                      <input
+                        id="form1"
+                        min="1"
+                        type="number"
+                        class="form-control"
+                        ng-model="quantity"
+                      />
+                      <label class="form-label" for="form1">Số lượng</label>
+                    </div>
+                  </div>
+                  <!-- Quantity -->
+
+                  <!-- Price -->
+                  <p class="text-start text-md-center">
+                    Tổng tiền:
+                    <strong class="text-danger"> {{getAmount()}}</strong>
+                  </p>
+                  <button ng-click="updateCard()" class="btn btn-primary">Thanh toán</button>
+                  <!-- Price -->
+                </div>
+                <hr class="my-4" />
+              </div>
+            </div>
+          </div>
+          <div class="card mb-4">
+            <div class="card-body">
+              <p><strong>Dự kiến giao hàng</strong></p>
+              <p class="mb-0">20.01.2024 - 25.01.2024</p>
+            </div>
+          </div>
+          <div class="card mb-4 mb-lg-0">
+            <div class="card-body">
+              <p><strong>Thanh toán Online</strong></p>
+              <img
+                class="me-2"
+                width="45px"
+                src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+                alt="Visa"
+              />
+              <img
+                class="me-2"
+                width="45px"
+                src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+                alt="American Express"
+              />
+              <img
+                class="me-2"
+                width="45px"
+                src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+                alt="Mastercard"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<a href="index.html"
+  ><img
+    class="xgear"
+    src="images/logofirst-removebg-preview.png"
+    width="180px"
+    alt=""
+/></a>

@@ -1,0 +1,319 @@
+body{
+    height: 100%;
+    position: absolute;
+    width: 800px;
+}
+header{
+    width: 183%;
+    height: 60px;
+    background-color: darkred;
+    position: relative;
+}
+footer{
+    width: 183%;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    float: bottom;
+    top: 2570px;
+}
+footer>img{
+    position: absolute;
+    float: left;
+    left: 190px;
+    top:25px;
+    height: 140px;
+}
+footer>p{
+    position: absolute;
+    top: 235px;
+    float: left;
+    left: 360px ;
+    font-weight: larger;
+}
+.footer_infor{
+    position: absolute;
+    top: 30px;
+    float: left;
+    font-weight: larger;
+    left: 530px;
+    padding: 3px;
+    margin: 0 auto;
+    line-height: 28px;
+}
+.chinhSach{
+    position: absolute;
+    top: 30px;
+    float: left;
+    font-weight: larger;
+    left: 780px;
+    padding: 3px;
+    margin: 0 auto;
+    line-height: 28px;
+}
+.inDam{
+    font-size: large;
+}
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 100px;
+    height: 36px;
+    border: 1px solid aqua;
+    background: black;
+    text-align: center;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .wrap{
+    width: 70%;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .icon_gioHang{
+    position: absolute;
+    top: 35px;
+    right: 10%;
+    transform: translate(-50%, -50%);
+  }
+  p{
+    position: absolute;
+    top: 30px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+.menu_first {
+    background-color: black;
+    height: 50px;
+    width: 183%; 
+    position: absolute;
+    line-height: 60px;
+    font-variant: small-caps;
+    text-align: center;
+}
+.menu_first>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu_first>ul>li>a{
+    display: block;
+}
+.menu_first>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.menu_first>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding:  0 20px;
+    line-height: 40px;
+}
+.menu_first>ul>li>a:hover{
+    color: yellow;
+}
+.menu_first ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu_first ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu_first>ul>li:hover>ul{
+    display: block;
+}
+.menu_first ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+}
+.dangnhap{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(220, 79, 79);
+    float: right;
+    left: 1330px;
+    top: 20px;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    margin: 0 auto;
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bolder;
+    box-shadow: 5px 5px 0px 0px black;
+    
+}
+.sanpham{
+    
+    width: 300px;
+    float: left;
+    margin: 0 auto;
+    padding: 2px;
+    top: 10px;
+    
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray; 
+}
+
+.prod a .name{
+    font-size: bold;
+    font-size: 19px;
+    color: white;
+}
+.prod a table{
+    color: white;
+}
+.prod a{
+    text-decoration: none;
+}
+.image{ 
+    width: 100%;
+    height: 280px;
+    margin-bottom: 10px;
+}
+.price > del{
+    color: grey;
+    font-size: large;
+}
+.price{
+    color: red;
+    font-size: large;
+    line-height: 30px;
+}
+.product_infor table{
+    text-align: center;
+    line-height: 30px;
+    padding: 2px;
+}
+tr:nth-child(2n){
+    background-color:grey;
+}
+tr:nth-child(2n):hover{
+    font-weight: bolder;
+}
+tr:nth-child(2n-1):hover{
+    background-color: grey;
+    font-weight: bolder;
+}
+.xgear{
+    position: absolute;
+    top: -8px;
+    left: 2%;
+}
+a > .dangnhap{
+    color: black;
+}
+a > .dangnhap:hover{
+    color: rgb(233, 241, 126);
+    background-color: darkred;
+    box-shadow: 0px 0px 5px 5px black;
+}
+.link{
+    margin-top: 80px;
+    margin-left: 250px;
+}
+.link a{
+    font-size: larger ;
+    text-decoration: none;
+    font-weight: bold;
+    color: palevioletred;
+    font-style: italic;
+
+}
+.link a:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.product{
+    width: 1200px;
+    margin: 0 auto;
+    float: left;
+    margin-left: 350px;
+    margin-top: 20px;
+
+}
+.new-icon{
+    width: 90px;
+    float: left;
+    position: relative;
+    bottom: 535px;
+    left: 222px;
+}
+.ThanhToan{
+    position: absolute;
+    float: left;
+    left: 1080px;
+    top: 30px;
+}
+.iconThanhToan>a img{
+    padding: 1px;
+    margin: 0 auto;
+    
+    margin-left: 2px;
+    margin-top: 10px;
+}
+.gopY{
+    position: absolute;
+    float: left;
+    left: 1080px;
+    top: 195px;
+}
+.foo_form-control{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    border: 3px solid red;
+    height: 25px;
+}
+.gopY>button{
+    background-color: red;
+    border-radius: 8px;
+    width: 50px;
+    height: 30px;
+}
